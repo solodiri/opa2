@@ -2,6 +2,7 @@ import "./Home.css";
 import { Link } from "react-router-dom";
 import { lists } from "../components/Data";
 import jajaimg from "../images/Jaja.jpg";
+// import stellaimg from "../images/stella.jpg";
 // import imgbg2 from "./Jaja.jpg";
 import Cards from "../components/Cards";
 // import imgbg from "./7.jpg";
@@ -22,6 +23,7 @@ const Home = () => {
           <button className="readmore btn">Read More</button>
         </Link>
       </div>
+      {/* <img className="headerImage" src={stellaimg} alt="headerImage" /> */}
       <img className="headerImage" src={jajaimg} alt="headerImage" />
       <div className="video">
         <video

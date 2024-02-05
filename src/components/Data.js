@@ -1,7 +1,10 @@
+// import soloimg from ".images/SOLO.jpg";
+const soloimg = "./images/SOLO.jpg";
+
 export const lists = [
   {
     id: "001",
-    image: "./images/SOLO.jpg",
+    image: { soloimg },
     post: "Chairman",
     name: "Sen. Solomon Diri",
     age: "40",
