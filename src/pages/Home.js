@@ -1,11 +1,11 @@
 import "./Home.css";
 import { Link } from "react-router-dom";
 import { lists } from "../components/Data";
-import jajaimg from "../images/Jaja.jpg";
-// import stellaimg from "../images/stella.jpg";
-// import imgbg2 from "./Jaja.jpg";
 import Cards from "../components/Cards";
-// import imgbg from "./7.jpg";
+// import ebere from "../images/ebere.png";
+import jaja from "../images/jaja.jpg";
+import ukegroups from "../images/ukegroups.mp4";
+import culture from "../images/culture.mp4";
 
 const Home = () => {
   // console.log(lists);
@@ -23,16 +23,11 @@ const Home = () => {
           <button className="readmore btn">Read More</button>
         </Link>
       </div>
-      <img className="headerImage" src="images/stella.jpg" alt="headerImage" />
-      <img className="headerImage" src={jajaimg} alt="headerImage" />
+
+      {/* <img className="headerImage" src={ebere} alt="headerImage" /> */}
+      <img className="headerImage" src={jaja} alt="headerImage" />
       <div className="video">
-        <video
-          className="headerImage"
-          src="./images/uke groups.mp4"
-          autoPlay
-          muted
-          loop
-        />
+        <video className="headerImage" src={ukegroups} autoPlay muted loop />
       </div>
       <div className="executive"> THE OPA EXECUTIVE</div>
 
@@ -42,14 +37,7 @@ const Home = () => {
         })}
       </section>
       <div className="video">
-        <video
-          className="headerImage"
-          src="./images/culture.mp4"
-          autoPlay
-          muted
-          loop
-        />
-        {/* <img className="imgOnVideo" src="images/youths.jpg" alt="headerImage" /> */}
+        <video className="headerImage" src={culture} autoPlay muted loop />
       </div>
     </>
   );

@@ -1,12 +1,12 @@
 import "./Details.css";
-import imgbg2 from "./Jaja.jpg";
+import jaja from "../images/jaja.jpg";
 const Details = () => {
   return (
     <>
       <div className=" details">
         <div className=" detailsBox">
           <h2>The Hostory of King Jaja Of Opobo</h2>
-          <img className="headerImage" src={imgbg2} alt="headerImage" />
+          <img className="headerImage" src={jaja} alt="headerImage" />
           <p>
             King Jaja of Opobo (full name: Jubo Jubogha; 1821–1891) was the
             first king (amanyanabo) of Opobo. He was also the founder of Opobo

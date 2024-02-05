@@ -6,6 +6,7 @@ const Constitution = () => {
       <div className=" details">
         <div className=" detailsBox">
           <h2>Constitution</h2>
+
           <p>
             We the members and successors of OPUBO KINGDOM resident in Ndoki and
             its environs of Oyigbo Local Government Area of Rivers State of

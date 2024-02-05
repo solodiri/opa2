@@ -15,6 +15,7 @@ import Privacy from "./pages/Privacy";
 import Conditions from "./pages/Conditions";
 import Constitution from "./pages/Constitution";
 import Constitution2 from "./pages/Constitution2";
+import Membership from "./pages/Membership";
 import Blog from "./pages/Blog";
 import News from "./pages/News";
 import ErrorPage from "./pages/ErrorPage";
@@ -42,8 +43,10 @@ function App() {
           <Route axact path="/privacy" element={<Privacy />} />
           <Route axact path="/blog" element={<Blog />} />
           <Route axact path="/news" element={<News />} />
+          <Route axact path="/membership" element={<Membership />} />
           <Route path="*" element={<ErrorPage />} />
         </Routes>
+
         <Footer />
       </Router>
     </>

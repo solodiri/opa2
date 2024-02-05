@@ -1,4 +1,5 @@
 import "./Details.css";
+import wikeandfub from "../images/wikeandfub.webp";
 const Projects = () => {
   return (
     <>
@@ -11,11 +12,8 @@ const Projects = () => {
           <h2>
             Rivers crisis: Fubara blasts Wike for insinuating Opobo is not Ijaw
           </h2>
-          <img
-            className=" projectImg"
-            src="./images/wike-and-fub.webp"
-            alt="projectImg"
-          />
+          <img className=" projectImg" src={wikeandfub} alt="projectImg" />
+
           <p>
             Rivers State Governor Siminalayi Fubara has slammed those who claim
             Opobo is not Ijaw.
