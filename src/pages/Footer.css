@@ -139,4 +139,12 @@ form {
   .form {
     width: 100%;
   }
+  .inputBox {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .inputBox {
+    width: 200px;
+  }
 }

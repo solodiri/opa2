@@ -23,7 +23,7 @@ const Home = () => {
           <button className="readmore btn">Read More</button>
         </Link>
       </div>
-      {/* <img className="headerImage" src={stellaimg} alt="headerImage" /> */}
+      <img className="headerImage" src="images/stella.jpg" alt="headerImage" />
       <img className="headerImage" src={jajaimg} alt="headerImage" />
       <div className="video">
         <video
