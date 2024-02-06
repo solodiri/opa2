@@ -1,18 +1,21 @@
 import "./Details.css";
 import jaja from "../images/jaja.jpg";
+import war1 from "../images/war1.png";
+import war2 from "../images/war2.png";
+import war3 from "../images/war3.png";
+import war4 from "../images/war4.png";
 const Details = () => {
   return (
     <>
       <div className=" details">
         <div className=" detailsBox">
           <h2>The Hostory of King Jaja Of Opobo</h2>
-          <img className="headerImage" src={jaja} alt="headerImage" />
+          <img className="headerImage" src={jaja} alt="warCanoe" />
           <p>
             King Jaja of Opobo (full name: Jubo Jubogha; 1821–1891) was the
             first king (amanyanabo) of Opobo. He was also the founder of Opobo
             Kingdom in present-day Rivers State and Akwa Ibom State of Nigeria.
           </p>
-
           <p>
             In his youth, Jaja was kidnapped from Igboland by black slave
             raiders and sold into slavery. He was then brought to Ijawland
@@ -24,7 +27,6 @@ const Details = () => {
             Manilla Pepple House led by Oko Jumbo compelled Jaja to break away
             to establish Opobo Kingdom (26 miles east of Bonny) in 1869.
           </p>
-
           <p>
             Opobo came to be a prominent trading post in the region's palm oil
             trade. Jaja barred entry to European and African middlemen,
@@ -35,7 +37,6 @@ const Details = () => {
             enlisted whites to staff the secular school he built in Opobo. He
             barred any missionaries from entering Opobo.
           </p>
-
           <p>
             At the 1884 Berlin Conference the Europeans designated Opobo as
             British territory. When Jaja refused to cease taxing the British
@@ -48,14 +49,12 @@ const Details = () => {
             Barbados, of African descent, were upset at the poor treatment of a
             King from their homeland.
           </p>
-
           <p>
             In 1891, Jaja was granted permission to return to Opobo, but died en
             route. Following his exile and death, the power of the Opobo state
             rapidly declined. In 1903 the King Jaja of Opobo Memorial was
             erected in his honor in Opobo town centre.
           </p>
-
           <p>
             The grave of Nigerian Prince Waribo, son of King Jaja of Opobo is in
             the churchyard at St Laurence Parish Church, Frodsham, Cheshire.
@@ -304,28 +303,45 @@ const Details = () => {
             the kingdom’s enthusiasm to utilize its unqualified advantage in
             this water sport.
           </p>
-          <div className="warContainer">
-            <img
-              className="warCanoe"
-              src="./images/war1.png"
-              alt="constitution"
-            />
-            <img
-              className="warCanoe"
-              src="./images/war2.png"
-              alt="constitution"
-            />
-            <img
-              className="warCanoe"
-              src="./images/war3.png"
-              alt="constitution"
-            />
-            <img
-              className="warCanoe"
-              src="./images/war4.png"
-              alt="constitution"
-            />
-          </div>
+          <h3>
+            The 14 Original House Sections (Polo)That Left Bonny Kingdom LISTED
+            ALPHABETICALLY:
+          </h3>
+          <p>1,Adibie</p>
+          <p> 2,Biriye</p>
+          <p>3,Dappaye Amakiri</p>
+          <p> 4,Datoo </p>
+          <p>5,Diepiri</p>
+          <p> 6,Epelle </p>
+          <p>7,Fubarakuro</p>
+          <p>8,Iruanya</p>
+          <p>9,Kalaomuso</p>
+          <p>10,Kieprima </p>
+          <p>11,King Jaja</p>
+          <p>12, Owujie</p>
+          <p> 13,Tolofari</p>
+          <p>14,Ukonu</p>
+
+          <h3>LISTED BY NUMBER OF WAR CANOES</h3>
+          <p>King Jaja Polo (14)</p>
+          <p>Datoo Polo (8),</p>
+          <p>Dappaye Amakiri Polo (7),</p>
+          <p>Diepiri Polo (6),</p>
+          <p>Kalaomuso Polo (5), </p>
+          <p>Ukonu Polo (5),</p>
+          <p>Kieprima Polo (4), </p>
+          <p>Iruanya Polo (4)</p>
+          <p>Epelle Polo (3),</p>
+          <p>Tolofari Polo (3),</p>
+          <p>Fubarakuro Polo (2),</p>
+          <p>Owujie Polo (2),</p>
+          <p>Biriye Polo (2),</p>
+          <p>Adibie Polo (2)</p>
+
+          <img className="warCanoe" src={war1} alt="warCanoe" />
+          <img className="warCanoe" src={war2} alt="warCanoe" />
+          <img className="warCanoe" src={war3} alt="warCanoe" />
+          <img className="warCanoe" src={war4} alt="warCanoe" />
         </div>
       </div>
     </>

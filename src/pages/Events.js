@@ -10,7 +10,7 @@ const Events = () => {
       <div className=" events">
         <h2>Events</h2>
         <div className=" ">
-          <h2>OPUBO PROGRESSIVE ASSOCIATION MEETING ROSTER 2024</h2>
+          <h4>OPUBO PROGRESSIVE ASSOCIATION MEETING ROSTER 2024</h4>
           <table className=" myTable ">
             <thead className=" myTableHeading ">
               <tr>
